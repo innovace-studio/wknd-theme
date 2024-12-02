@@ -13,6 +13,7 @@
       "type": "video-hero",
       "settings": {
         "video": "shopify://files/videos/copy_F742E489-9AFB-4D14-953A-C7BBA12CAC65.mov",
+        "url": "",
         "title": "EXTRA 30% OFF EVERYTHING!",
         "subheading": "CYBER MONDAY IS HERE! USE CODE: CYBER30",
         "textAlignment": "center",
@@ -29,11 +30,12 @@
         "section_margin_bottom": 0,
         "desktopHeight": "650",
         "mobileHeight": "450",
-        "textColor": "#FFFFFF"
+        "textColor": "#ffffff"
       }
     },
     "image_with_text_overlay_LpK8bx": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify://shop_images/Untitled-1.png",
         "height_desktop": "original",
