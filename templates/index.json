@@ -28,7 +28,7 @@
         "button-text": "#ffffff",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
-        "desktopHeight": "650",
+        "desktopHeight": "fullscreen",
         "mobileHeight": "450",
         "textColor": "#ffffff"
       }
