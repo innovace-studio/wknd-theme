@@ -236,9 +236,9 @@
     "featured_collection_dH4UbY": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP THE AURORA COLLECTION",
+        "title": "SHOP PARTY DRESSES",
         "description": "",
-        "collection": "aurora",
+        "collection": "party-dresses",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
