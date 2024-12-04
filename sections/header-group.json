@@ -24,6 +24,7 @@
         },
         "860cfd32-0dce-4889-8012-b7d936e80788": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "announcement_text": "USE CODE: <strong>CYBER30</strong> FOR AN EXTRA 30% OFF EVERYTHING!",
             "announcement_bg_color": "#000000",
@@ -49,6 +50,7 @@
         },
         "announcement_X6LqcF": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "announcement_text": "<a href=\"/pages/black-friday-early-access\" title=\"Black Friday Early Access\"><strong>SIGN UP TO OUR EARLY ACCESS BLACK FRIDAY DEALS</strong></a>",
             "announcement_bg_color": "#000000",
@@ -63,6 +65,7 @@
         "announcement_zMGkjh",
         "announcement_X6LqcF"
       ],
+      "custom_css": [],
       "settings": {
         "desktop_social_icons": false
       }
