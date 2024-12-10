@@ -233,58 +233,6 @@
         "image_overlay_opacity": 0
       }
     },
-    "featured_collection_dH4UbY": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SHOP PARTY DRESSES",
-        "description": "",
-        "collection": "party-dresses",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "show_view_all": true,
-        "buttons_style": "filled",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "layout_style": "slider",
-        "products_to_show": 6,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white"
-      }
-    },
-    "scrolling_banner_xrRyxC": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_t3ACjx": {
-          "type": "text",
-          "settings": {
-            "text": "Free Delivery on all UK orders over £75",
-            "font": "body",
-            "style": "fill",
-            "font_size_desktop": 18,
-            "font_size_mobile": 12
-          }
-        }
-      },
-      "block_order": [
-        "text_t3ACjx"
-      ],
-      "settings": {
-        "title": "",
-        "description": "",
-        "show_fade": true,
-        "borders": false,
-        "animation_direction": "normal",
-        "animation_speed": 60,
-        "section_padding_top": 50,
-        "section_padding_bottom": 50,
-        "space_between_blocks_desktop": 40,
-        "space_between_blocks_mobile": 20,
-        "rotate": "0",
-        "color_scheme": "dark"
-      }
-    },
     "gallery_UBPg8w": {
       "type": "gallery",
       "blocks": {
@@ -308,7 +256,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/WG-1246288-JKT-BRN_4.webp",
-            "link": "",
+            "link": "shopify://collections/tailoring",
             "subheading": "",
             "title": "Tailoring",
             "overlay-btn-text": "",
@@ -370,6 +318,58 @@
         "section-width": "content",
         "remove-spacing": false,
         "full-width": false,
+        "colors": "white"
+      }
+    },
+    "scrolling_banner_xrRyxC": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_t3ACjx": {
+          "type": "text",
+          "settings": {
+            "text": "Free Delivery on all UK orders over £75",
+            "font": "body",
+            "style": "fill",
+            "font_size_desktop": 18,
+            "font_size_mobile": 12
+          }
+        }
+      },
+      "block_order": [
+        "text_t3ACjx"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 50,
+        "section_padding_bottom": 50,
+        "space_between_blocks_desktop": 40,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "dark"
+      }
+    },
+    "featured_collection_dH4UbY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP PARTY DRESSES",
+        "description": "",
+        "collection": "party-dresses",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 6,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
         "colors": "white"
       }
     },
