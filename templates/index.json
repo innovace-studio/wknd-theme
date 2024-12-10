@@ -87,6 +87,32 @@
             "caption-text": "#ffffff"
           }
         },
+        "image_wwnBqk": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "Shop now",
+            "first_button_link": "shopify://collections/timeless-designs",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#242424",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/TDWEB.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom",
+            "mobile_image": "shopify://shop_images/TMOB_61d9596b-21db-4141-a3ec-990faf524e57.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
         "image_XfHDNH": {
           "type": "image",
           "settings": {
@@ -112,38 +138,12 @@
             "image_overlay_opacity": 0,
             "caption-text": "#ffffff"
           }
-        },
-        "image_wwnBqk": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "first_button_label": "Shop now",
-            "first_button_link": "shopify://collections/timeless-designs",
-            "second_button_label": "",
-            "second_button_link": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button-background": "#242424",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/TWEB.png",
-            "desktop-caption-heading-size": 60,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "bottom",
-            "mobile_image": "shopify://shop_images/mon.png",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff"
-          }
         }
       },
       "block_order": [
         "image_YeKAfX",
-        "image_XfHDNH",
-        "image_wwnBqk"
+        "image_wwnBqk",
+        "image_XfHDNH"
       ],
       "settings": {
         "slide_transition_delay": 7,
@@ -248,8 +248,8 @@
             "overlay_font_color": "#000000",
             "overlay_color": "#242424",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         },
         "image_fM63DQ": {
@@ -264,8 +264,8 @@
             "overlay_font_color": "#000000",
             "overlay_color": "#f9f9fb",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         },
         "image_G4gQyL": {
@@ -280,8 +280,8 @@
             "overlay_font_color": "#000000",
             "overlay_color": "#242424",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         },
         "image_h4BctM": {
@@ -296,8 +296,8 @@
             "overlay_font_color": "#000000",
             "overlay_color": "#242424",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         }
       },
