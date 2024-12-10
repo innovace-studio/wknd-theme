@@ -253,117 +253,6 @@
         "colors": "white"
       }
     },
-    "scrolling_banner_xrRyxC": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_t3ACjx": {
-          "type": "text",
-          "settings": {
-            "text": "Free Delivery on all UK orders over £75",
-            "font": "body",
-            "style": "fill",
-            "font_size_desktop": 18,
-            "font_size_mobile": 12
-          }
-        }
-      },
-      "block_order": [
-        "text_t3ACjx"
-      ],
-      "settings": {
-        "title": "",
-        "description": "",
-        "show_fade": true,
-        "borders": false,
-        "animation_direction": "normal",
-        "animation_speed": 60,
-        "section_padding_top": 50,
-        "section_padding_bottom": 50,
-        "space_between_blocks_desktop": 40,
-        "space_between_blocks_mobile": 20,
-        "rotate": "0",
-        "color_scheme": "dark"
-      }
-    },
-    "shop_the_look_TTNn6T": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_rxQ8Pm": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/Leopard.jpg",
-            "hotspot_color": "#ffffff",
-            "product_1": "leopard-chiffon-drape-top",
-            "hotspot_horizontal_position_1": 64,
-            "hotspot_vertical_position_1": 25,
-            "product_2": "leopard-chiffon-maxi-skirt",
-            "hotspot_horizontal_position_2": 45,
-            "hotspot_vertical_position_2": 62,
-            "product_3": "",
-            "hotspot_horizontal_position_3": 75,
-            "hotspot_vertical_position_3": 50,
-            "product_4": "",
-            "hotspot_horizontal_position_4": 75,
-            "hotspot_vertical_position_4": 75
-          }
-        },
-        "look_7mkeLh": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/Suit-stone.jpg",
-            "hotspot_color": "#ffffff",
-            "product_1": "tailored-oversized-blazer",
-            "hotspot_horizontal_position_1": 35,
-            "hotspot_vertical_position_1": 35,
-            "product_2": "tailored-button-detail-waistcoat",
-            "hotspot_horizontal_position_2": 60,
-            "hotspot_vertical_position_2": 65,
-            "product_3": "tailored-wide-leg-trousers",
-            "hotspot_horizontal_position_3": 40,
-            "hotspot_vertical_position_3": 85,
-            "product_4": "",
-            "hotspot_horizontal_position_4": 75,
-            "hotspot_vertical_position_4": 75
-          }
-        },
-        "look_WtLKLq": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/STL.jpg",
-            "hotspot_color": "#ffffff",
-            "product_1": "wknd-girl-fitted-tee",
-            "hotspot_horizontal_position_1": 62,
-            "hotspot_vertical_position_1": 48,
-            "product_2": "wknd-official-t-shirt-short-set",
-            "hotspot_horizontal_position_2": 60,
-            "hotspot_vertical_position_2": 75,
-            "product_3": "tailored-oversized-blazer",
-            "hotspot_horizontal_position_3": 75,
-            "hotspot_vertical_position_3": 50,
-            "product_4": "",
-            "hotspot_horizontal_position_4": 75,
-            "hotspot_vertical_position_4": 75
-          }
-        }
-      },
-      "block_order": [
-        "look_rxQ8Pm",
-        "look_7mkeLh",
-        "look_WtLKLq"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop the look",
-        "description": "<p>Look no further for effortless styles.</p>",
-        "image_aspect_ratio": "1 / 1",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "colors": "white",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff"
-      }
-    },
     "collection_list_yQhqVq": {
       "type": "collection-list",
       "blocks": {
@@ -486,6 +375,117 @@
         "colors": "white"
       }
     },
+    "scrolling_banner_xrRyxC": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_t3ACjx": {
+          "type": "text",
+          "settings": {
+            "text": "Free Delivery on all UK orders over £75",
+            "font": "body",
+            "style": "fill",
+            "font_size_desktop": 18,
+            "font_size_mobile": 12
+          }
+        }
+      },
+      "block_order": [
+        "text_t3ACjx"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 50,
+        "section_padding_bottom": 50,
+        "space_between_blocks_desktop": 40,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "dark"
+      }
+    },
+    "shop_the_look_TTNn6T": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_rxQ8Pm": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Leopard.jpg",
+            "hotspot_color": "#ffffff",
+            "product_1": "leopard-chiffon-drape-top",
+            "hotspot_horizontal_position_1": 64,
+            "hotspot_vertical_position_1": 25,
+            "product_2": "leopard-chiffon-maxi-skirt",
+            "hotspot_horizontal_position_2": 45,
+            "hotspot_vertical_position_2": 62,
+            "product_3": "",
+            "hotspot_horizontal_position_3": 75,
+            "hotspot_vertical_position_3": 50,
+            "product_4": "",
+            "hotspot_horizontal_position_4": 75,
+            "hotspot_vertical_position_4": 75
+          }
+        },
+        "look_7mkeLh": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/Suit-stone.jpg",
+            "hotspot_color": "#ffffff",
+            "product_1": "tailored-oversized-blazer",
+            "hotspot_horizontal_position_1": 35,
+            "hotspot_vertical_position_1": 35,
+            "product_2": "tailored-button-detail-waistcoat",
+            "hotspot_horizontal_position_2": 60,
+            "hotspot_vertical_position_2": 65,
+            "product_3": "tailored-wide-leg-trousers",
+            "hotspot_horizontal_position_3": 40,
+            "hotspot_vertical_position_3": 85,
+            "product_4": "",
+            "hotspot_horizontal_position_4": 75,
+            "hotspot_vertical_position_4": 75
+          }
+        },
+        "look_WtLKLq": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/STL.jpg",
+            "hotspot_color": "#ffffff",
+            "product_1": "wknd-girl-fitted-tee",
+            "hotspot_horizontal_position_1": 62,
+            "hotspot_vertical_position_1": 48,
+            "product_2": "wknd-official-t-shirt-short-set",
+            "hotspot_horizontal_position_2": 60,
+            "hotspot_vertical_position_2": 75,
+            "product_3": "tailored-oversized-blazer",
+            "hotspot_horizontal_position_3": 75,
+            "hotspot_vertical_position_3": 50,
+            "product_4": "",
+            "hotspot_horizontal_position_4": 75,
+            "hotspot_vertical_position_4": 75
+          }
+        }
+      },
+      "block_order": [
+        "look_rxQ8Pm",
+        "look_7mkeLh",
+        "look_WtLKLq"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop the look",
+        "description": "<p>Look no further for effortless styles.</p>",
+        "image_aspect_ratio": "1 / 1",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
     "rich_text_4M37FR": {
       "type": "rich-text",
       "blocks": {
@@ -546,8 +546,8 @@
     "image_with_text_overlay_nkAwC4",
     "featured_collection_dH4UbY",
     "scrolling_banner_xrRyxC",
-    "shop_the_look_TTNn6T",
     "collection_list_yQhqVq",
+    "shop_the_look_TTNn6T",
     "rich_text_4M37FR",
     "17180959512e1ad42f"
   ]
