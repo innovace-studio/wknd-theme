@@ -157,9 +157,9 @@
     "featured_collection_EajArU": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP THE AURORA COLLECTION",
+        "title": "HOODIES & SWEATS",
         "description": "",
-        "collection": "aurora",
+        "collection": "hoodies-sweats",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
@@ -522,6 +522,7 @@
             "alignment": "center",
             "margin_top": 20,
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
