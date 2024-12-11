@@ -25,7 +25,7 @@
         "announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "FREE DELIVERY ON ALL UK ORDERS OVER £75",
+            "announcement_text": "Free delivery on all UK orders over £75",
             "announcement_bg_color": "#494949",
             "announcement_text_color": "#ffffff"
           }
@@ -45,6 +45,15 @@
             "announcement_text": "<strong>Pay Later in 3 with Klarna</strong>",
             "announcement_bg_color": "#494949",
             "announcement_text_color": "#ffffff"
+          }
+        },
+        "announcement_Tp9aUh": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "Announce something here",
+            "announcement_bg_color": "#F9F9FB",
+            "announcement_text_color": "#262428"
           }
         },
         "announcement_zMGkjh": {
@@ -71,6 +80,7 @@
         "announcement",
         "860cfd32-0dce-4889-8012-b7d936e80788",
         "announcement_PhHfcc",
+        "announcement_Tp9aUh",
         "announcement_zMGkjh",
         "announcement_X6LqcF"
       ],
