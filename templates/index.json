@@ -197,6 +197,7 @@
     },
     "image_with_text_ixUpNa": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/SOCKS_1.jpg",
         "title": "Gifts this christmas for £25 and under",
