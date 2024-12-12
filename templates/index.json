@@ -624,6 +624,27 @@
         "section_padding_bottom": 0,
         "include_margins": false
       }
+    },
+    "image_with_text_ixUpNa": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/SOCKS_1.jpg",
+        "title": "Gifts this christmas for £25 and under",
+        "text": "",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/gifts-25-and-under",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "center",
+        "colors": "light"
+      }
     }
   },
   "order": [
@@ -632,6 +653,7 @@
     "slideshow_EAgXNp",
     "featured_collection_EajArU",
     "video_GdRPnf",
+    "image_with_text_ixUpNa",
     "image_with_text_overlay_nkAwC4",
     "gallery_UBPg8w",
     "scrolling_banner_xrRyxC",
