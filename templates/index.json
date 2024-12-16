@@ -176,6 +176,7 @@
     },
     "video_GdRPnf": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
@@ -410,8 +411,8 @@
             "overlay_font_color": "#f9f9fb",
             "overlay_color": "#494949",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         },
         "image_jh8MPz": {
@@ -423,11 +424,11 @@
             "title": "Wknd knits",
             "overlay-btn-text": "",
             "show-gradient-overlay": true,
-            "overlay_font_color": "#FFFFFF",
+            "overlay_font_color": "#ffffff",
             "overlay_color": "#494949",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF"
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
           }
         }
       },
@@ -709,11 +710,11 @@
     "featured_collection_EajArU",
     "video_GdRPnf",
     "image_with_text_ixUpNa",
+    "gallery_zBcLfg",
     "image_with_text_overlay_nkAwC4",
     "gallery_UBPg8w",
     "scrolling_banner_xrRyxC",
     "featured_collection_dH4UbY",
-    "gallery_zBcLfg",
     "collection_list_yQhqVq",
     "shop_the_look_TTNn6T",
     "rich_text_4M37FR",
