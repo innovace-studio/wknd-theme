@@ -1074,7 +1074,7 @@ Accepts:
                           </summary>
                           <div class="facets__display">
                             <div class="facets__header text-inline-link-animated">
-                              {%- assign max_price_amount = filter.range_max | money | escape -%}
+                              {%- assign max_price_amount = filter.range_max | money | strip_html -%}
                               <span class="facets__selected">{{ "sections.collection_template.max_price" | t: price: max_price_amount }}</span>
                               <a href="{{ filter.url_to_remove }}" class="facets__reset link underlined-link js-facet-remove" >{{ 'sections.collection_template.reset' | t }}</a>
                             </div>
