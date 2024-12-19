@@ -218,6 +218,60 @@
         "colors": "light"
       }
     },
+    "gallery_zBcLfg": {
+      "type": "gallery",
+      "blocks": {
+        "image_etrM7z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SOCKS_1.jpg",
+            "link": "shopify://collections/gifts-25-and-under",
+            "subheading": "",
+            "title": "GIFTS FOR £25 and under",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#f9f9fb",
+            "overlay_color": "#494949",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_jh8MPz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5008.webp",
+            "link": "shopify://collections/last-chance-to-buy",
+            "subheading": "",
+            "title": "Last CHANCE TO BUY",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#494949",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_etrM7z",
+        "image_jh8MPz"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_image_size": "natural",
+        "content-position": "overlay",
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section-width": "content",
+        "remove-spacing": false,
+        "full-width": false,
+        "colors": "white"
+      }
+    },
     "image_with_text_overlay_nkAwC4": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -393,60 +447,6 @@
         "products_to_show": 6,
         "grid-desktop": 4,
         "grid-mobile": "2",
-        "colors": "white"
-      }
-    },
-    "gallery_zBcLfg": {
-      "type": "gallery",
-      "blocks": {
-        "image_etrM7z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SOCKS_1.jpg",
-            "link": "shopify://collections/gifts-25-and-under",
-            "subheading": "",
-            "title": "GIFTS FOR £25 and under",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#f9f9fb",
-            "overlay_color": "#494949",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "image_jh8MPz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/knitwear.webp",
-            "link": "shopify://collections/wknd-knit",
-            "subheading": "",
-            "title": "Wknd knits",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": true,
-            "overlay_font_color": "#ffffff",
-            "overlay_color": "#494949",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_etrM7z",
-        "image_jh8MPz"
-      ],
-      "settings": {
-        "title": "",
-        "description": "",
-        "grid_image_size": "natural",
-        "content-position": "overlay",
-        "buttons_style": "filled",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "section-width": "content",
-        "remove-spacing": false,
-        "full-width": false,
         "colors": "white"
       }
     },
