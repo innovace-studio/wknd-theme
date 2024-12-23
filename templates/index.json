@@ -65,7 +65,7 @@
           "settings": {
             "title": "",
             "text": "",
-            "first_button_label": "Shop now",
+            "first_button_label": "",
             "first_button_link": "shopify://collections/last-chance-to-buy",
             "second_button_label": "",
             "second_button_link": "",
