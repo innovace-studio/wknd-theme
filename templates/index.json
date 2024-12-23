@@ -310,6 +310,38 @@
         "image_overlay_opacity": 0
       }
     },
+    "scrolling_banner_xrRyxC": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_t3ACjx": {
+          "type": "text",
+          "settings": {
+            "text": "Free Delivery on all UK orders over £75",
+            "font": "body",
+            "style": "fill",
+            "font_size_desktop": 18,
+            "font_size_mobile": 12
+          }
+        }
+      },
+      "block_order": [
+        "text_t3ACjx"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 50,
+        "section_padding_bottom": 50,
+        "space_between_blocks_desktop": 40,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "dark"
+      }
+    },
     "gallery_UBPg8w": {
       "type": "gallery",
       "blocks": {
@@ -396,38 +428,6 @@
         "remove-spacing": false,
         "full-width": false,
         "colors": "white"
-      }
-    },
-    "scrolling_banner_xrRyxC": {
-      "type": "scrolling-banner",
-      "blocks": {
-        "text_t3ACjx": {
-          "type": "text",
-          "settings": {
-            "text": "Free Delivery on all UK orders over £75",
-            "font": "body",
-            "style": "fill",
-            "font_size_desktop": 18,
-            "font_size_mobile": 12
-          }
-        }
-      },
-      "block_order": [
-        "text_t3ACjx"
-      ],
-      "settings": {
-        "title": "",
-        "description": "",
-        "show_fade": true,
-        "borders": false,
-        "animation_direction": "normal",
-        "animation_speed": 60,
-        "section_padding_top": 50,
-        "section_padding_bottom": 50,
-        "space_between_blocks_desktop": 40,
-        "space_between_blocks_mobile": 20,
-        "rotate": "0",
-        "color_scheme": "dark"
       }
     },
     "featured_collection_dH4UbY": {
@@ -713,8 +713,8 @@
     "image_with_text_ixUpNa",
     "gallery_zBcLfg",
     "image_with_text_overlay_nkAwC4",
-    "gallery_UBPg8w",
     "scrolling_banner_xrRyxC",
+    "gallery_UBPg8w",
     "featured_collection_dH4UbY",
     "collection_list_yQhqVq",
     "shop_the_look_TTNn6T",
