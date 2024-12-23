@@ -224,10 +224,10 @@
         "image_etrM7z": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SOCKS_1.jpg",
-            "link": "shopify://collections/gifts-25-and-under",
+            "image": "shopify://shop_images/MOB1.png",
+            "link": "shopify://collections/coats-and-jackets",
             "subheading": "",
-            "title": "GIFTS FOR £25 and under",
+            "title": "",
             "overlay-btn-text": "",
             "show-gradient-overlay": true,
             "overlay_font_color": "#f9f9fb",
@@ -240,10 +240,10 @@
         "image_jh8MPz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5008.webp",
-            "link": "shopify://collections/last-chance-to-buy",
+            "image": "shopify://shop_images/ddmob.png",
+            "link": "shopify://collections/dusk-till-dawn",
             "subheading": "",
-            "title": "Last CHANCE TO BUY",
+            "title": "",
             "overlay-btn-text": "",
             "show-gradient-overlay": true,
             "overlay_font_color": "#ffffff",
