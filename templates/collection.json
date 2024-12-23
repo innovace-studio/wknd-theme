@@ -1,1 +1,82 @@
-{"wrapper":"div.collection-wrapper.wrapper","sections":{"collection-header-spotlight":{"type":"collection-header","settings":{"show_breadcrumbs":false,"show_title":true,"show_description":true,"show_image_desktop":false,"min_height_desktop":"original","content_position":"center","caption_width_desktop":100,"show_image_mobile":false,"min_height_mobile":"original","content_position_mobile":"center","enable_parallax":false,"enable_fade":false,"section_width":"full","section_margin_top":0,"section_margin_bottom":0,"colors":"white","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#e6e5e7","image_overlay_opacity":21}},"product-grid":{"type":"template--collection","settings":{"products-per-page":6,"desktop-products-per-row":4,"mobile-products-per-row":"2","pagination_options":"pagination_infinite_scrolling","desktop_position":"topbar","enable_collection_title":false,"enable_collection_description":false,"enable_filtering":true,"show_swatch_filter_labels":true,"enable_sorting":true}}},"order":["collection-header-spotlight","product-grid"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "collection-header-spotlight": {
+      "type": "collection-header",
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_title": true,
+        "show_description": true,
+        "show_image_desktop": false,
+        "min_height_desktop": "original",
+        "content_position": "center",
+        "caption_width_desktop": 100,
+        "show_image_mobile": false,
+        "min_height_mobile": "original",
+        "content_position_mobile": "center",
+        "enable_parallax": false,
+        "enable_fade": false,
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "colors": "white",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#e6e5e7",
+        "image_overlay_opacity": 21
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "settings": {
+        "products-per-page": 6,
+        "desktop-products-per-row": 4,
+        "mobile-products-per-row": "2",
+        "pagination_options": "pagination_infinite_scrolling",
+        "desktop_position": "topbar",
+        "enable_collection_title": false,
+        "enable_collection_description": false,
+        "enable_filtering": true,
+        "show_swatch_filter_labels": true,
+        "enable_sorting": true
+      }
+    },
+    "custom_html_yCfaLz": {
+      "type": "custom-html",
+      "blocks": {
+        "html_inwcpc": {
+          "type": "html",
+          "settings": {
+            "code": "<p style=\"text-align:center;margin:0;\">Add custom html, support custom content or third party widgets like external forms, maps, calendar or iframe content.</p>",
+            "width": "100%",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "html_inwcpc"
+      ],
+      "settings": {
+        "title": "",
+        "description": "{{ collection.metafields.custom.seo | metafield_tag }}",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "collection-header-spotlight",
+    "product-grid",
+    "custom_html_yCfaLz"
+  ]
+}
