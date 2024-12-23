@@ -51,22 +51,21 @@
     },
     "custom_html_yCfaLz": {
       "type": "custom-html",
-      "blocks": {
-        "html_inwcpc": {
-          "type": "html",
-          "settings": {
-            "code": "<p style=\"text-align:center;margin:0;\">Add custom html, support custom content or third party widgets like external forms, maps, calendar or iframe content.</p>",
-            "width": "100%",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "html_inwcpc"
-      ],
       "settings": {
         "title": "",
         "description": "{{ collection.metafields.custom.seo | metafield_tag }}",
+        "section_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "custom_liquid_Pw7ck3": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "description": "",
+        "custom_liquid": "{% if collection.metafields.namespace.key %}\n  <div class=\"custom-content\">\n    {{ collection.metafields.namespace.key }}\n  </div>\n{% endif %}",
         "section_width": "content",
         "section_padding_top": 60,
         "section_padding_bottom": 60,
@@ -77,6 +76,7 @@
   "order": [
     "collection-header-spotlight",
     "product-grid",
-    "custom_html_yCfaLz"
+    "custom_html_yCfaLz",
+    "custom_liquid_Pw7ck3"
   ]
 }
