@@ -432,6 +432,7 @@
     },
     "featured_collection_dH4UbY": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "SHOP COATS & JACKETS",
         "description": "",
