@@ -115,6 +115,7 @@
         },
         "image_XfHDNH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
