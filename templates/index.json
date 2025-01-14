@@ -87,33 +87,6 @@
             "caption-text": "#ffffff"
           }
         },
-        "image_Nr8fFW": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "text": "",
-            "first_button_label": "SHOP NOW",
-            "first_button_link": "shopify://collections/end-of-season-sale",
-            "second_button_label": "",
-            "second_button_link": "",
-            "buttons_style": "filled",
-            "override_button_colors": true,
-            "button-background": "#ff0018",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/EOS_Desktop_v2.png",
-            "desktop-caption-heading-size": 60,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "bottom",
-            "mobile_image": "shopify://shop_images/EOS_Mobile_v2.png",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "bottom",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff"
-          }
-        },
         "image_CzU8xb": {
           "type": "image",
           "settings": {
@@ -132,6 +105,32 @@
             "desktop-caption-body-text-size": 24,
             "text_position": "bottom",
             "mobile_image": "shopify://shop_images/MOB_55b0799d-8f44-4677-affd-1110229c91df.png",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "bottom",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff"
+          }
+        },
+        "image_Nr8fFW": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "SHOP NOW",
+            "first_button_link": "shopify://collections/end-of-season-sale",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button-background": "#ff0018",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/EOS_Desktop_v2.png",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom",
+            "mobile_image": "shopify://shop_images/EOS_Mobile_v2.png",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
             "mobile_text_position": "bottom",
@@ -197,8 +196,8 @@
       },
       "block_order": [
         "image_wwnBqk",
-        "image_Nr8fFW",
         "image_CzU8xb",
+        "image_Nr8fFW",
         "image_XfHDNH",
         "image_YeKAfX"
       ],
