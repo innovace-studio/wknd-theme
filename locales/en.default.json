@@ -581,7 +581,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "optional_phone_label": "Phone (mandatory)"
+        "optional_phone_label": "Phone (optional)"
       }
     }
   }
