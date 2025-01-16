@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -567,6 +576,13 @@
       "store_owner_html": "<a href=\"/admin\">Log in here</a>",
       "continue": "Continue",
       "powered_by_html": "This store will be powered by <a href=\"http://www.shopify.com\">Shopify</a>"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "optional_phone_label": "Phone (mandatory)"
+      }
     }
   }
 }
