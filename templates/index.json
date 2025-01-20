@@ -115,6 +115,7 @@
         },
         "image_Nr8fFW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
