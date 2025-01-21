@@ -74,7 +74,7 @@
         "products_to_show": 8,
         "grid-desktop": 4,
         "grid-mobile": "2",
-        "colors": "dark"
+        "colors": "accent"
       }
     }
   },
