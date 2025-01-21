@@ -20,11 +20,12 @@
     "image_with_text_overlay_9LcTD6": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image_desktop": "shopify://shop_images/WEB_fd266457-b8d6-451e-9f77-2d98c9f2f1d6.png",
+        "image_desktop": "shopify://shop_images/Untitled_design_40.png",
         "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/MOB_55b0799d-8f44-4677-affd-1110229c91df.png",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
