@@ -17,28 +17,43 @@
         "page_width": "full-width"
       }
     },
-    "1737453037086beda9": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_NYriER": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "Vnjt52"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_NYriER"
-      ],
+    "image_with_text_overlay_ihrHbn": {
+      "type": "image-with-text-overlay",
       "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
+        "image_desktop": "shopify://shop_images/WEB_0d5431f7-7576-4a1d-b397-b78b6db91480.png",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/MOB_55b0799d-8f44-4677-affd-1110229c91df.png",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#FFFFFF",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "newsletter_nAneGd": {
+      "type": "newsletter",
+      "settings": {
+        "newsletter_heading": "BE THE FIRST TO KNOW",
+        "newsletter_description": "<p>Sign up now for early access to the Wellness Collection.</p>",
+        "textAlignment": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
       }
     }
   },
   "order": [
     "main",
-    "1737453037086beda9"
+    "image_with_text_overlay_ihrHbn",
+    "newsletter_nAneGd"
   ]
 }
