@@ -1,1 +1,87 @@
-{"sections":{"image_with_text_overlay_eNjHJ4":{"type":"image-with-text-overlay","settings":{"image_desktop":"shopify:\/\/shop_images\/BF_Web_Banners_BF_Early_Access_-_Desktop-04.png","height_desktop":"original","text_position_desktop":"center","text_alignment_desktop":"center","caption_width_desktop":50,"image_mobile":"shopify:\/\/shop_images\/BF_Web_Banners_BF_Early_Access_-_Mobile_4eaa7960-06b6-4d22-abd6-7cc0b7cd9518.png","height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"none","section_margin_top":0,"section_margin_bottom":0,"text_color":"#242424","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#ffffff","image_overlay_opacity":0}},"173132880661dcf801":{"type":"apps","blocks":{"klaviyo_email_marketing_sms_form_embed_block_NMNYwB":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507","settings":{"formId":"RxRSEm"}}},"block_order":["klaviyo_email_marketing_sms_form_embed_block_NMNYwB"],"settings":{"section_padding_top":0,"section_padding_bottom":0,"include_margins":false}},"main":{"type":"template--page","disabled":true,"settings":{"page_title_enabled":false,"page_width":"full-width"}},"featured_collection_GTJLRj":{"type":"featured-collection","settings":{"title":"","description":"","collection":"aurora","show_view_all":false,"buttons_style":"filled","section_padding_top":60,"section_padding_bottom":60,"layout_style":"slider","products_to_show":8,"grid-desktop":4,"grid-mobile":"2","colors":"white"}}},"order":["image_with_text_overlay_eNjHJ4","173132880661dcf801","main","featured_collection_GTJLRj"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "image_with_text_overlay_9LcTD6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image_desktop": "shopify://shop_images/WEB_fd266457-b8d6-451e-9f77-2d98c9f2f1d6.png",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#FFFFFF",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "173132880661dcf801": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_NMNYwB": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SBrZbs"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_NMNYwB"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "featured_collection_GTJLRj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "description": "",
+        "collection": "athleisure",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "dark"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_9LcTD6",
+    "173132880661dcf801",
+    "featured_collection_GTJLRj"
+  ]
+}
