@@ -41,6 +41,7 @@
     },
     "newsletter_nAneGd": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "newsletter_heading": "BE THE FIRST TO KNOW",
         "newsletter_description": "<p>Sign up now for early access to the Wellness Collection.</p>",
@@ -49,11 +50,31 @@
         "section_padding_bottom": 60,
         "colors": "white"
       }
+    },
+    "1737454929604ec715": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_W6HEHh": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "SBrZbs"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_W6HEHh"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_ihrHbn",
-    "newsletter_nAneGd"
+    "newsletter_nAneGd",
+    "1737454929604ec715"
   ]
 }
