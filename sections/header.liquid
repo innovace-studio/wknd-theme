@@ -65,7 +65,7 @@ Testing Cypress integration
       <li>
         <a href="{{ routes.search_url }}" class="search-button standalone-icon--wrapper" aria-label="{{ 'layout.header.search' | t }}">
           {% if section.settings.show_icons %}
-            {% render 'theme-icon' with icon: 'search', iconSize: 20 %}
+            {% render 'theme-icon' with icon, icon: 'search', iconSize: 20 %}
           {% else %}
             <span class="header--supporting-text">{{ 'layout.header.search' | t }}</span>
           {% endif %}
@@ -78,7 +78,7 @@ Testing Cypress integration
         <li>
           <a href="{{ routes.account_url }}" title="{{ 'layout.customer.account' | t }}" class="account-button standalone-icon--wrapper">
             {% if section.settings.show_icons %}
-              {% render 'theme-icon' with icon: 'user', iconSize: 20 %}
+              {% render 'theme-icon' with icon, icon: 'user', iconSize: 20 %}
             {% else %}
               <span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>
             {% endif %}
@@ -88,7 +88,7 @@ Testing Cypress integration
         <li>
           <a href="{{ routes.account_login_url }}" aria-label="{{ 'layout.customer.log_in' | t }}" class="log-in-button standalone-icon--wrapper">
             {% if section.settings.show_icons %}
-              {% render 'theme-icon' with icon: 'user', iconSize: 20 %}
+              {% render 'theme-icon' with icon, icon: 'user', iconSize: 20 %}
             {% else %}
               <span class="header--supporting-text">{{ 'layout.header.account' | t }}</span>
             {% endif %}
@@ -106,7 +106,7 @@ Testing Cypress integration
         aria-label="{{ 'layout.header.your_cart' | t }}"
       >
         {% if section.settings.show_icons %}
-          {% render 'theme-icon' with icon: section.settings.cart-style %}
+          {% render 'theme-icon' with icon, icon: section.settings.cart-style %}
           {% if section.settings.cart_count %}                                                                                                                                          
               <span 
                 data-cart-count-indicator
@@ -167,7 +167,7 @@ Testing Cypress integration
       <div class="mobile-nav__logo-title">
         <div class="mobile-nav__logo-title--inner">
           <a class="mobile-menu--close-btn standalone-icon--wrapper" aria-label="{{ 'layout.drawers.close_menu' | t }}" role="button">
-            {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+            {% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}
           </a>
         </div>
       </div>
@@ -292,31 +292,11 @@ Testing Cypress integration
   
                       {% if link-title == block-title %}
                         {% if block.settings.mega_image_1 and block.settings.show_promo_1_in_mobile_drawer %}
-                          {% render 'mega-menu-promo-card' with 
-                            promo_wrapper_classes: "mobile-nav__item",
-                            promo_block_id: block.id,
-                            promo_img: block.settings.mega_image_1,
-                            promo_img_crop: block.settings.image_1_aspect_ratio,
-                            promo_text_overlay: block.settings.overlay_text_on_image_promo_1,
-                            promo_text_heading: block.settings.mega_image_header_1,
-                            promo_text_subheading: block.settings.mega_image_subheader_1,
-                            promo_text_color: block.settings.overlay_text_color_promo_1,
-                            promo_link: block.settings.mega_image_link_1
-                          %}
+                          {% render 'mega-menu-promo-card' with promo_wrapper_classes, promo_wrapper_classes: "mobile-nav__item", promo_block_id: block.id, promo_img: block.settings.mega_image_1, promo_img_crop: block.settings.image_1_aspect_ratio, promo_text_overlay: block.settings.overlay_text_on_image_promo_1, promo_text_heading: block.settings.mega_image_header_1, promo_text_subheading: block.settings.mega_image_subheader_1, promo_text_color: block.settings.overlay_text_color_promo_1, promo_link: block.settings.mega_image_link_1 %}
                         {% endif %}
                           
                         {% if block.settings.mega_image_2 and block.settings.show_promo_2_in_mobile_drawer %}
-                          {% render 'mega-menu-promo-card' with 
-                            promo_wrapper_classes: "mobile-nav__item",
-                            promo_block_id: block.id,
-                            promo_img: block.settings.mega_image_2,
-                            promo_img_crop: block.settings.image_2_aspect_ratio,
-                            promo_text_overlay: block.settings.overlay_text_on_image_promo_2,
-                            promo_text_heading: block.settings.mega_image_header_2,
-                            promo_text_subheading: block.settings.mega_image_subheader_2,
-                            promo_text_color: block.settings.overlay_text_color_promo_2,
-                            promo_link: block.settings.mega_image_link_2
-                          %}
+                          {% render 'mega-menu-promo-card' with promo_wrapper_classes, promo_wrapper_classes: "mobile-nav__item", promo_block_id: block.id, promo_img: block.settings.mega_image_2, promo_img_crop: block.settings.image_2_aspect_ratio, promo_text_overlay: block.settings.overlay_text_on_image_promo_2, promo_text_heading: block.settings.mega_image_header_2, promo_text_subheading: block.settings.mega_image_subheader_2, promo_text_color: block.settings.overlay_text_color_promo_2, promo_link: block.settings.mega_image_link_2 %}
                         {% endif %}
                       {% endif %}
                     {% endfor %}
@@ -429,7 +409,7 @@ Testing Cypress integration
                                       {% endif %}
                                   {% endif %}
                         
-                                  {% render 'responsive-image' with block.settings.mega_image_1, allow_stretch: image_1_stretch, alt: img_alt | escape, props: img_props %}
+                                  {% render 'responsive-image' with block.settings.mega_image_1, allow_stretch: image_1_stretch, alt: img_alt, props: img_props %}
                                   {% if block.settings.mega_image_link_1 %}
                                     </a>
                                   {% else %}
@@ -486,7 +466,7 @@ Testing Cypress integration
                                       {% endif %}
                                   {% endif %}
                         
-                                  {% render 'responsive-image' with block.settings.mega_image_2, allow_stretch: image_2_stretch, alt: img_alt | escape, props: img_props %}
+                                  {% render 'responsive-image' with block.settings.mega_image_2, allow_stretch: image_2_stretch, alt: img_alt, props: img_props %}
                                   {% if block.settings.mega_image_link_2 %}
                                     </a>
                                   {% else %}
@@ -684,7 +664,7 @@ Testing Cypress integration
             endif
           -%}
           {% if enable_social_icons %}
-            <li class="mobile-nav__item sm-icons--wrapper">{% render 'social-icons' with wrapper_classes: 'mobile-nav__social-icons', icon_wrapper_classes: 'icon-no-padding', icon_classes: 'fa-2x' %}</li>
+            <li class="mobile-nav__item sm-icons--wrapper">{% render 'social-icons' with wrapper_classes, wrapper_classes: 'mobile-nav__social-icons', icon_wrapper_classes: 'icon-no-padding', icon_classes: 'fa-2x' %}</li>
           {% endif %}
         </ul>
       </div>
@@ -707,7 +687,7 @@ Testing Cypress integration
           }
         </style>
         {% assign alt = section.settings.logo.alt | default: shop.name %}
-        {% render 'responsive-image' with section.settings.logo, alt: alt | escape, props: 'itemprop="logo"', allow_stretch: true, blur: false, class: 'logo_image', loading: 'eager' %}
+        {% render 'responsive-image' with section.settings.logo, alt: alt, props: 'itemprop="logo"', allow_stretch: true, blur: false, class: 'logo_image', loading: 'eager' %}
       </a>
     {% else %}
       <a class="site-header__logo-link" href="{{ routes.root_url }}" itemprop="url">{{ shop.name }}</a>
@@ -743,12 +723,12 @@ Testing Cypress integration
 
             <span class="opacity-logo">
               {% assign opacity_alt = img.alt | default: shop.name %}
-              {% render 'responsive-image' with img, alt: opacity_alt | escape, props: 'itemprop="logo"', blur: false, class: 'logo_overlay' %}
+              {% render 'responsive-image' with img, alt: opacity_alt, props: 'itemprop="logo"', blur: false, class: 'logo_overlay' %}
             </span>
             {% if section.settings.overlay_logo and section.settings.logo %}
               <span class="hover-logo">
                 {% assign hover_alt = section.settings.logo.alt | default: shop.name %}
-                {% render 'responsive-image' with section.settings.logo, alt: hover_alt | escape, props: 'itemprop="logo"', blur: false, class: 'logo_hover' %}
+                {% render 'responsive-image' with section.settings.logo, alt: hover_alt, props: 'itemprop="logo"', blur: false, class: 'logo_hover' %}
               </span>
             {% endif %}
           </a>
@@ -825,7 +805,7 @@ Testing Cypress integration
           <div class="grid__item three-twelfths">
             <div class="site-nav--mobile">
               <button type="button" aria-label="{{ 'layout.navigation.menu' | t }}" class="hamburger-nav-button icon-fallback-text site-nav__link js-drawer-open-left-link standalone-icon--wrapper" aria-controls="NavDrawer" aria-expanded="false">
-                {% render 'theme-icon' with icon: 'hamburger_nav', iconClasses: 'fa-2x', widthUnset: true %}
+                {% render 'theme-icon' with icon, icon: 'hamburger_nav', iconClasses: 'fa-2x', widthUnset: true %}
                 <span class="fallback-text">{{ 'layout.navigation.menu' | t }}</span>
               </button>
             </div>
@@ -841,7 +821,7 @@ Testing Cypress integration
               {% if section.settings.enable_search %}
               <a href="{{ routes.search_url }}" class="search-button standalone-icon--wrapper" aria-label="{{ 'layout.header.search' | t }}" aria-controls="SearchDrawer" aria-expanded="false">
                 <span class="icon-fallback-text">
-                  {% render 'theme-icon' with icon: 'search', iconSize: 20 %}
+                  {% render 'theme-icon' with icon, icon: 'search', iconSize: 20 %}
                   <span class="fallback-text">{{ 'layout.header.search' | t }}</span>
                 </span>
               </a>
@@ -849,7 +829,7 @@ Testing Cypress integration
 
               <a href="{{ routes.cart_url }}" aria-label="{{ 'layout.cart.title' | t }}" class="{% if settings.cart_type == 'drawer' %}js-drawer-open-right-link {% endif %}site-nav__link{% if section.settings.cart_count %} cart-count-enabled {{ section.settings.cart-style }}{% endif %}{% if cart.item_count > 0 %} cart-count-visible{% endif %} standalone-icon--wrapper{% if section.settings.show_icons %} header-icons-enabled{% endif %}" aria-controls="CartDrawer" aria-expanded="false">
                 <span class="icon-fallback-text">
-                  {% render 'theme-icon' with icon: section.settings.cart-style, iconClasses: 'fa-2x' %}
+                  {% render 'theme-icon' with icon, icon: section.settings.cart-style, iconClasses: 'fa-2x' %}
                   {% if section.settings.cart_count %}
                     <span class="cart-item-count-bubble cart-item-count-header cart-item-count-header--quantity{% if cart.item_count == 0 %} hide{% endif %}">{{ cart.item_count }}</span>
                   {% endif %}
@@ -1329,3 +1309,102 @@ Testing Cypress integration
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'search', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'search', iconSize: 20 %}"
+  position: 2560..2625
+- from: "{% render 'theme-icon' with icon: 'user', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'user', iconSize: 20 %}"
+  position: 3083..3146
+- from: "{% render 'theme-icon' with icon: 'user', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'user', iconSize: 20 %}"
+  position: 3556..3619
+- from: "{% render 'theme-icon' with icon: section.settings.cart-style %}"
+  to: "{% render 'theme-icon' with icon, icon: section.settings.cart-style %}"
+  position: 4436..4506
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}"
+  position: 6833..6897
+- from: "{% render 'mega-menu-promo-card' with \n                            promo_wrapper_classes:
+    \"mobile-nav__item\",\n                            promo_block_id: block.id,\n
+    \                           promo_img: block.settings.mega_image_1,\n                            promo_img_crop:
+    block.settings.image_1_aspect_ratio,\n                            promo_text_overlay:
+    block.settings.overlay_text_on_image_promo_1,\n                            promo_text_heading:
+    block.settings.mega_image_header_1,\n                            promo_text_subheading:
+    block.settings.mega_image_subheader_1,\n                            promo_text_color:
+    block.settings.overlay_text_color_promo_1,\n                            promo_link:
+    block.settings.mega_image_link_1\n                          %}"
+  to: '{% render ''mega-menu-promo-card'' with promo_wrapper_classes, promo_wrapper_classes:
+    "mobile-nav__item", promo_block_id: block.id, promo_img: block.settings.mega_image_1,
+    promo_img_crop: block.settings.image_1_aspect_ratio, promo_text_overlay: block.settings.overlay_text_on_image_promo_1,
+    promo_text_heading: block.settings.mega_image_header_1, promo_text_subheading:
+    block.settings.mega_image_subheader_1, promo_text_color: block.settings.overlay_text_color_promo_1,
+    promo_link: block.settings.mega_image_link_1 %}'
+  position: 13866..14381
+- from: "{% render 'mega-menu-promo-card' with \n                            promo_wrapper_classes:
+    \"mobile-nav__item\",\n                            promo_block_id: block.id,\n
+    \                           promo_img: block.settings.mega_image_2,\n                            promo_img_crop:
+    block.settings.image_2_aspect_ratio,\n                            promo_text_overlay:
+    block.settings.overlay_text_on_image_promo_2,\n                            promo_text_heading:
+    block.settings.mega_image_header_2,\n                            promo_text_subheading:
+    block.settings.mega_image_subheader_2,\n                            promo_text_color:
+    block.settings.overlay_text_color_promo_2,\n                            promo_link:
+    block.settings.mega_image_link_2\n                          %}"
+  to: '{% render ''mega-menu-promo-card'' with promo_wrapper_classes, promo_wrapper_classes:
+    "mobile-nav__item", promo_block_id: block.id, promo_img: block.settings.mega_image_2,
+    promo_img_crop: block.settings.image_2_aspect_ratio, promo_text_overlay: block.settings.overlay_text_on_image_promo_2,
+    promo_text_heading: block.settings.mega_image_header_2, promo_text_subheading:
+    block.settings.mega_image_subheader_2, promo_text_color: block.settings.overlay_text_color_promo_2,
+    promo_link: block.settings.mega_image_link_2 %}'
+  position: 14581..15096
+- from: "{% render 'responsive-image' with block.settings.mega_image_1, allow_stretch:
+    image_1_stretch, alt: img_alt | escape, props: img_props %}"
+  to: "{% render 'responsive-image' with block.settings.mega_image_1, allow_stretch:
+    image_1_stretch, alt: img_alt, props: img_props %}"
+  position: 22088..22216
+- from: "{% render 'responsive-image' with block.settings.mega_image_2, allow_stretch:
+    image_2_stretch, alt: img_alt | escape, props: img_props %}"
+  to: "{% render 'responsive-image' with block.settings.mega_image_2, allow_stretch:
+    image_2_stretch, alt: img_alt, props: img_props %}"
+  position: 26774..26902
+- from: "{% render 'social-icons' with wrapper_classes: 'mobile-nav__social-icons',
+    icon_wrapper_classes: 'icon-no-padding', icon_classes: 'fa-2x' %}"
+  to: "{% render 'social-icons' with wrapper_classes, wrapper_classes: 'mobile-nav__social-icons',
+    icon_wrapper_classes: 'icon-no-padding', icon_classes: 'fa-2x' %}"
+  position: 35904..36061
+- from: '{% render ''responsive-image'' with section.settings.logo, alt: alt | escape,
+    props: ''itemprop="logo"'', allow_stretch: true, blur: false, class: ''logo_image'',
+    loading: ''eager'' %}'
+  to: '{% render ''responsive-image'' with section.settings.logo, alt: alt, props:
+    ''itemprop="logo"'', allow_stretch: true, blur: false, class: ''logo_image'',
+    loading: ''eager'' %}'
+  position: 36729..36896
+- from: '{% render ''responsive-image'' with img, alt: opacity_alt | escape, props:
+    ''itemprop="logo"'', blur: false, class: ''logo_overlay'' %}'
+  to: '{% render ''responsive-image'' with img, alt: opacity_alt, props: ''itemprop="logo"'',
+    blur: false, class: ''logo_overlay'' %}'
+  position: 38175..38295
+- from: '{% render ''responsive-image'' with section.settings.logo, alt: hover_alt
+    | escape, props: ''itemprop="logo"'', blur: false, class: ''logo_hover'' %}'
+  to: '{% render ''responsive-image'' with section.settings.logo, alt: hover_alt,
+    props: ''itemprop="logo"'', blur: false, class: ''logo_hover'' %}'
+  position: 38537..38671
+- from: "{% render 'theme-icon' with icon: 'hamburger_nav', iconClasses: 'fa-2x',
+    widthUnset: true %}"
+  to: "{% render 'theme-icon' with icon, icon: 'hamburger_nav', iconClasses: 'fa-2x',
+    widthUnset: true %}"
+  position: 41792..41890
+- from: "{% render 'theme-icon' with icon: 'search', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'search', iconSize: 20 %}"
+  position: 42650..42715
+- from: "{% render 'theme-icon' with icon: section.settings.cart-style, iconClasses:
+    'fa-2x' %}"
+  to: "{% render 'theme-icon' with icon, icon: section.settings.cart-style, iconClasses:
+    'fa-2x' %}"
+  position: 43429..43521
+{% endcomment %}
